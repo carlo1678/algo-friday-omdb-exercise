@@ -1,43 +1,49 @@
-body{
-    text-align: center;
-    margin: 2em;
-    background-color: #1e5372;
+body {
+  text-align: center;
+  margin: 2em;
+  background-color: #1e5372;
 }
 
-.main-page-content{
-    margin: 1.5em;
-}
-.search-form{
-    margin: 0 20vw 5em 20vw;
-}
-.main-header{
-    margin-bottom: .5em;
-    color: #2A1F2D;
-}
-.sub-header{
-    color: #56E39F;
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: black;
 }
 
-.movie-container{
-    display: flex;
-    justify-content: center;
+.main-page-content {
+  margin: 1.5em;
+}
+.search-form {
+  margin: 0 20vw 5em 20vw;
+}
+.main-header {
+  margin-bottom: 0.5em;
+  color: #2a1f2d;
+}
+.sub-header {
+  color: #56e39f;
 }
 
-.movie-card.card{
-    background-color: #2A1F2D;
-    height: 75vh;
-    box-shadow: 0px 8px 15px 2px #000000;
-    margin-bottom: 1em;
+.movie-container {
+  display: flex;
+  justify-content: center;
 }
 
-.movie-card-img{
-    height: 75%;
+.movie-card.card {
+  background-color: #2a1f2d;
+  height: 75vh;
+  box-shadow: 0px 8px 15px 2px #000000;
+  margin-bottom: 1em;
 }
 
-.card-title{
-    color: #56E39F;
+.movie-card-img {
+  height: 75%;
 }
 
-.card-year{
-    color: #56E39F;
+.card-title {
+  color: #56e39f;
+}
+
+.card-year {
+  color: #56e39f;
 }
